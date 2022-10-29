@@ -34,7 +34,7 @@ form.addEventListener('submit', async(e)=> {
          showDataUi (dataStore);
          repolist(repoStore);
          notFound.style.display = 'none';
-         userDit.style.display = 'block';
+         userDit.style.display = 'flex';
       }      
    }
    resetFrom();
